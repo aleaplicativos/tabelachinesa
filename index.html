@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabela Chinesa</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Descubra o Sexo do Bebê | tabela chinesa</h1>
+        <label for="birthDate">Data de Nascimento da Mãe:</label>
+        <input type="date" id="birthDate" max="9999-12-31">
+        <br>
+        <label for="conceptionDate">Data da Concepção: o que importa é o MÊS (engravidou)</label>
+        <input type="date" id="conceptionDate" max="9999-12-31">
+        <br>
+        <button onclick="calculateGender()">Calcular</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
